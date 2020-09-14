@@ -41,11 +41,11 @@ console.log(objectLength()); // 4
 // OR
 
 function objectLenght1(obj) {
-    let count = 0;
-    for (let key in obj) {
-      count += 1;
+    let counts = 0;
+    for (let count in obj) {
+      counts += 1;
     }
-    return count;
+    return counts;
   }
   console.log(objectLenght1(person)); // 4
   
